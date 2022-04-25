@@ -1,4 +1,4 @@
-from unet2d import UNet
+from Networks.unet2d import UNet
 import torch
 import torch.optim 
 import matplotlib
@@ -11,7 +11,7 @@ sys.path.append('.../{your_directory}/')
 
 dataname="cell"
 # Load the saved model weights e.g. 28th epoch of trained WGAN model
-checkpoint = torch.load(f"{dataname}_28Wgan.pth") 
+checkpoint = torch.load(f"{dataname}_epoch_30_GEN.pth") 
 
 # Network/Training Parameters (copied from training)
 ignore_index = 0 
