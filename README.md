@@ -15,7 +15,7 @@ Note: we have not provided the image dataset due to AstraZeneca licenses but thi
 ## Citation
 If you find this work useful, please consider citing our paper:
 ```
-@article {Cross-Zamirski2021.11.05.467394,
+@article {10.1038/s41598-022-12914-x,
 	author = {Cross-Zamirski, Jan and Mouchet, Elizabeth and Williams, Guy and Sch{\"o}nlieb, Carola-Bibiane and Turkki, Riku and Wang, Yinhai},
 	title = {Label-Free Prediction of Cell Painting from Brightfield Images},
 	year = {2022},
